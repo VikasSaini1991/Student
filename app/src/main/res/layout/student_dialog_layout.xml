@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_centerInParent="true"
+        android:layout_width="match_parent"
+        android:layout_margin="20dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <RelativeLayout
+           android:layout_margin="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+            <TextView
+                android:textColor="@color/color_black"
+                android:textSize="15dp"
+            android:layout_alignParentLeft="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Student Name">
+
+            </TextView>
+            <TextView
+                android:id="@+id/tv_student_name_dialog"
+                android:textColor="@color/color_black"
+                android:textSize="15dp"
+          android:layout_alignParentRight="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Student Name">
+
+            </TextView>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_margin="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+            <TextView
+                android:textColor="@color/color_black"
+                android:textSize="15dp"
+                android:layout_alignParentLeft="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Roll No">
+
+            </TextView>
+            <TextView
+                android:id="@+id/tv_roll_no"
+                android:textColor="@color/color_black"
+                android:textSize="15dp"
+                android:layout_alignParentRight="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Roll No">
+
+            </TextView>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_margin="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+            <TextView
+                android:layout_alignParentLeft="true"
+                android:layout_width="wrap_content"
+                android:textColor="@color/color_black"
+                android:textSize="15dp"
+                android:layout_height="wrap_content"
+                android:text="Branch">
+
+            </TextView>
+            <TextView
+                android:id="@+id/tv_branch"
+                android:layout_alignParentRight="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/color_black"
+                android:textSize="15dp"
+                android:text="Branch">
+
+            </TextView>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_margin="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+            <TextView
+                android:layout_alignParentLeft="true"
+                android:layout_width="wrap_content"
+                android:textColor="@color/color_black"
+                android:textSize="15dp"
+                android:layout_height="wrap_content"
+                android:text="Semester">
+
+            </TextView>
+            <TextView
+                android:id="@+id/tv_sem"
+                android:textColor="@color/color_black"
+                android:textSize="15dp"
+
+                android:layout_alignParentRight="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Semester">
+
+            </TextView>
+        </RelativeLayout>
+        <LinearLayout
+            android:layout_marginTop="15dp"
+            android:layout_gravity="end"
+            android:gravity="end"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/tv_cancel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:textSize="20dp"
+                android:textColor="@color/color_black"
+                android:text="Cancel"></TextView>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>
